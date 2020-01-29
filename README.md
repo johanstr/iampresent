@@ -50,8 +50,16 @@ cd iampresent
 composer install
 ```  
   ***Houd het terminalvenster open.***  
+  
 
-### 4. Database aanmaken
+### 4. Configuratie in de code aanpassen
+Voer nu de volgende commando uit in de Git Bash terminal (zorg er wel voor dat je in de map iampresent zit):  
+  
+```bash
+mv env.txt .env
+```
+
+### 5. Database aanmaken
 a) Open PHPMyAdmin in de browser met de volgende URL (er vanuit gaande dat je XAMPP hebt draaien):  http://localhost/phpmyadmin
   
 
@@ -70,7 +78,7 @@ php artisan db:seed
 ```  
   
 
-### 5. Testen of alles werkt
+### 6. Testen of alles werkt
 Open je browser en tik in de adresbalk het volgende in:  
 http://localhost/iampresent/public  
   
