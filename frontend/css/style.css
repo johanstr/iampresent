@@ -1,0 +1,245 @@
+body {
+    font-size: .875rem;
+}
+
+.navbar-brand {
+    background-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-header {
+    font-size: 24px;
+}
+
+.logo-img {
+    max-height: 22px !important;
+}
+
+/*
+ * Content
+ */
+
+[role="main"] {
+    padding-top: 48px;
+    /* Space for fixed navbar */
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.student-form-column {
+    border-left: 1px solid #ecebeb;
+}
+
+img.student-img {
+    max-width: 125px;
+    border-radius: 5px;
+}
+
+table.student-list>tbody>tr:hover {
+    background-color: #aaaaaa !important;
+    cursor: pointer !important;
+}
+
+table.student-list>tbody>tr:hover>td {
+    color: white;
+}
+
+.registered-student-data {
+    display: block;
+    margin: 0;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.registered-student-time-in,
+.registered-student-time-out {
+    display: block;
+    margin: 5px 0 0;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.registered-student-time-in {
+    color: #28a745;
+}
+
+.registered-student-time-out {
+    color: #b21f2d;
+}
+
+.table-card {
+    font-size: 15px;
+}
+
+.has-card,
+.attendance-percentage-ok {
+    color: #28a745;
+}
+
+.has-no-card,
+.attendance-percentage-alert {
+    color: #b21f2d;
+}
+
+.attendance-percentage-ok,
+.attendance-percentage-alert {
+    font-weight: 800;
+}
+
+.registration-attended,
+.attendance-ok {
+    background-color: #e2f8e7 !important;
+}
+
+.registration-not-attended,
+.attendance-alert {
+    background-color: #f0dee0 !important;
+}
+
+.groupname {
+    font-size: 25px;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #607D8B !important;
+}
+
+.page-break {
+    page-break-after: always;
+}
+
+.table td,
+.table th {
+    padding: .4rem !important;
+}
+
+.action-icons {
+    font-size: 18px;
+}
+
+i.action-edit {
+    color: #28a745;
+    cursor: pointer;
+}
+
+i.action-delete {
+    color: #b21f2d;
+    cursor: pointer;
+}
+
+i.action-calendar {
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+td.lesson_table {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+td.present {
+    background-color: green;
+    color: white;
+}
+
+td.absent {
+    background-color: red;
+    color: white;
+}
+
+td.telaat {
+    background-color: orange;
+    color: white;
+}
+
+td.permitted {
+    background-color: yellow;
+    color: black;
+}
+
+td.unknown {
+    background-color: yellow;
+    color: black;
+}
+
+td.geenles {
+    background-color: black;
+    color: black;
+}
+
+.permitted-absence-description {
+    color: #4e555b;
+    font-size: 9px;
+    font-style: italic;
+}
+
+.highlight-message {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.import-explanation-image {
+    max-width: 450px;
+    margin-bottom: 40px;
+}
+
+.student-img-small {
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+.borrow-hide {
+    display: none;
+}
+
+.borrow-student-row {
+    margin-top: 60px;
+    border-top: 1px solid #d3d9df;
+    padding-top: 20px;
+}
