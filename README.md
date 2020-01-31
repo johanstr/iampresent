@@ -85,3 +85,13 @@ http://localhost/iampresent/public
 Als het goed is zie je nu een standaard Laravel pagina, maar we zijn er wel vanuit gegaan dat je map iampresent direct in de map htdocs (of www bij WAMP) is geplaatst.
   
 
+  
+## Updaten van de code
+Als er wijzigingen zijn in de code van de repository dan wil je die ook lokaal op je laptop hebben.  
+Je kunt dit doen door in de map van dit project de volgende command te gebruiken:  
+  
+```bash
+git pull
+```
+
+Let op!!! Als je zelf ook al wijzigingen in de code op je laptop hebt aangebracht kan het zijn dat de bovenstaande command een fout of waarschuwing geeft.
