@@ -12,6 +12,7 @@ $factory->define(Student::class, function (Faker $faker) {
         'student_number' => $faker->randomNumber(7,false),
         'group_id' => $faker->numberBetween(0,5),
         'card_one_uid' => $faker->isbn10,
-        'card_two_uid' => $faker->isbn10
+        'card_two_uid' => $faker->isbn10,
+        'photo' => 'https://ao-alfa.org/img/default-student.png'
     ];
 });
